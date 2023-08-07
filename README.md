@@ -18,7 +18,7 @@ You can't use `this` by getters, please use `state`. And you must use it `Create
 ##### QA
 Q. why default use CreateGetters by @Getters ?
 
-A. lock -> [typescript #4881](https://github.com/microsoft/TypeScript/issues/4881)
+A. look -> [typescript #4881](https://github.com/microsoft/TypeScript/issues/4881)
 
 #### Code
 ```typescript
