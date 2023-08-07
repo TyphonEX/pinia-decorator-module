@@ -15,7 +15,7 @@ yarn add pinia-decorator-module
 
 You can't use `this` by getters, please use `state`. And you must use it `CreateGetters` wrap, This can make you get true type
 
-```
+```typescript
 import { Actions, CreateGetters, Getters, Pinia, Plugins, Store } from "pinia-decorator-module"
 
 @Store("Demo")
@@ -54,7 +54,7 @@ export const useDemo = () => new Demo()
 
 Just like
 
-```
+```typescript
 import { defineStore } from "pinia"
 
 export const useCount = defineStore('count', {

@@ -1,6 +1,7 @@
 {
   "name": "pinia-decorator-module",
   "author": "TyphonEX",
+  "repository": "https://github.com/TyphonEX/pinia-decorator-module",
   "type": "module",
   "version": "1.0.0",
   "license": "MIT",
