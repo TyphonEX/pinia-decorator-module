@@ -15,6 +15,10 @@ yarn add pinia-decorator-module
 
 You can't use `this` by getters, please use `state`. And you must use it `CreateGetters` wrap, This can make you get true type
 
+#### QA
+Q. why default use CreateGetters by @Getters ?
+A. lock -> [typescript #4881](https://github.com/microsoft/TypeScript/issues/4881)
+
 ```typescript
 import { Actions, CreateGetters, Getters, Pinia, Plugins, Store } from "pinia-decorator-module"
 
