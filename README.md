@@ -20,6 +20,7 @@ Q. why default use CreateGetters by @Getters ?
 
 A. lock -> [typescript #4881](https://github.com/microsoft/TypeScript/issues/4881)
 
+#### Code
 ```typescript
 import { Actions, CreateGetters, Getters, Pinia, Plugins, Store } from "pinia-decorator-module"
 
