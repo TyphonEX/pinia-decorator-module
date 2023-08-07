@@ -4,6 +4,8 @@ Use decorator to write your pinia
 
 ### Install
 
+[npm](https://www.npmjs.com/package/pinia-decorator-module)
+
 ```
 // npm
 npm install pinia-decorator-module
